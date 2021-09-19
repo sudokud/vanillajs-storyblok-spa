@@ -1,0 +1,24 @@
+.article > .content{
+    max-width: 39rem;
+}
+/* .author{
+    display: flex;
+} */
+.author > .avatar{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.tag{
+    font-weight: 700;
+}
+.tag.origins{
+    color:crimson;
+}
+.tag.shorts{
+    color: coral;
+}
+
+.tag.guide{
+    color: rgb(55, 66, 168);
+}

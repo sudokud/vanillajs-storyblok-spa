@@ -1,0 +1,16 @@
+{
+  "name": "vanillajs-storyblok-blog",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^2.5.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.3",
+    "storyblok-js-client": "^4.1.4"
+  }
+}

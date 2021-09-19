@@ -1,0 +1,30 @@
+.section_container{
+    min-height: 100vh;
+}
+.headers-container{
+    padding: 7vh 0;
+}
+
+.card{
+    height: 27rem;
+    width: 23rem;
+    border-radius: 23px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 6px 8px 0px, rgba(0, 0, 0, 0.04) 0px 0px 0px 1px;
+    max-width: 23rem;
+    position: relative;
+}
+.card:hover{
+    transform: translate3d(0, -5px, 0);
+    transition: transform ease 350ms;
+}
+.card-image{
+    height: 59%;
+}
+.card-body{
+    padding-left: 31px;
+}
+.card-link,.card-link:hover{
+    text-decoration: none;
+    color:black;
+}
